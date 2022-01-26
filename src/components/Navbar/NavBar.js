@@ -19,6 +19,7 @@ const NavBar = () => {
 
   return (
     <nav
+      id='Home'
       className={` ${
         navbar ? `${navStyles.active} ${navStyles.navbar}` : navStyles.navbar
       }`}
@@ -34,7 +35,7 @@ const NavBar = () => {
         >
           <ul>
             <li onClick={handlebuttonClick}>
-              <a href='#'>Home</a>
+              <a href='./#'>Home</a>
             </li>
             <li onClick={handlebuttonClick}>
               <a href='./#About'>About Me</a>

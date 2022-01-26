@@ -7,7 +7,7 @@ import MainButton from './Shared/MainButton';
 import image from '../assets/PortfolioImage.jpg';
 const MainSection = () => {
   return (
-    <div id='Home'>
+    <div tabIndex="0">
       <section className={mainStyles.container}>
         <div className={mainStyles.textContainer}>
           <div className={mainStyles.background_img}>
