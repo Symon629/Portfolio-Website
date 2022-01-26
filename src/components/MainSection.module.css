@@ -59,8 +59,7 @@ img {
 @media screen and (max-width: 768px) {
   .background_img {
     top: -14rem;
-    left: 0;
-    right: -4rem;
+    left: 5rem;
     z-index: 1;
   }
   .content {
