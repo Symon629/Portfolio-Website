@@ -30,7 +30,11 @@ const ProjectCard = (props) => {
         </div>
       </div>
       <div className={CardStyles.projectImgContainer}>
-        <img className={CardStyles.projectImg} src={props.item.image} />
+        <img
+          className={CardStyles.projectImg}
+          src={props.item.image}
+          alt='Project'
+        />
       </div>
     </div>
   );

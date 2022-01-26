@@ -55,9 +55,7 @@ const AboutMe = () => {
       </div>
     );
   };
-  const [aboutdesc, setAboutDesc] = useState();
-  const [experience, setExperience] = useState();
-  const [educationDesc, setEducationDesc] = useState();
+
   const [data, setData] = useState(<AboutData />);
 
   const aboutClick = () => {
