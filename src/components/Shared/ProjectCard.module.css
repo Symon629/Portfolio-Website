@@ -1,0 +1,118 @@
+.projectContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  padding: 0px 24px;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.projectDescription {
+  box-shadow: -5px 17px 37px -3px rgba(0, 0, 0, 0.35);
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: white;
+  margin-left: 5rem;
+  animation: moveInLeft 1s;
+}
+.content {
+  width: 90%;
+}
+.projectImgContainer {
+  position: relative;
+  box-shadow: -5px 17px 37px -3px rgba(0, 0, 0, 0.35);
+  height: 15rem;
+  left: -4rem;
+  z-index: 2;
+  width: 20rem;
+  top: 1.5rem;
+  border-radius: 5px;
+  animation: moveInRight 1s;
+}
+.projectImg {
+  height: 15rem;
+  width: 9rem;
+}
+.text_content {
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.techStack {
+  color: orange;
+  font-size: 18px;
+  font-weight: 600;
+}
+.buttons {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    margin-top: 1rem;
+    margin-left: 10rem;
+  }
+
+  .projectImgContainer {
+    text-align: center;
+    margin-left: 9rem;
+    width: 15rem;
+    margin-bottom: -3rem;
+  }
+  .projectContainer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectDescription {
+    margin-left: 0;
+    position: relative;
+    width: 350px;
+    height: 100%;
+    margin-top: 2rem;
+    padding-top: 60px;
+  }
+  .content {
+    width: 80%;
+  }
+  .text_content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
