@@ -7,7 +7,7 @@ import MainButton from './Shared/MainButton';
 import image from '../assets/PortfolioImage.jpg';
 const MainSection = () => {
   return (
-    <div tabIndex="0">
+    <div tabIndex='0'>
       <section className={mainStyles.container}>
         <div className={mainStyles.textContainer}>
           <div className={mainStyles.background_img}>
@@ -20,8 +20,8 @@ const MainSection = () => {
             </h1>
             <p className={mainStyles.shortDescription}>
               I am in my Last year, pursuing a Bachelor's degree at UTS. I like
-              develop mobile applications. Current Tech Stack that I am working
-              with is MERN Stack.
+              developing mobile applications. Current Tech Stack that I am
+              working with is MERN Stack.
             </p>
             <div className={mainStyles.buttonContainer}>
               <MainButton
