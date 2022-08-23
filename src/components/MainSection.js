@@ -4,8 +4,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import MainButton from './Shared/MainButton';
-import image from '../assets/PortfolioImage.jpg';
-    //<img src={image} alt='My portfolio' />
+/*import image from '../assets/PortfolioImage.jpg';
+*//<img src={image} alt='My portfolio' />
+ */
 const MainSection = () => {
   return (
     <div tabIndex='0'>
