@@ -5,7 +5,7 @@ const AboutMe = () => {
   const AboutData = () => {
     return (
       <p>
-        Hey there, I am Asadul Islam Symon. I am pursuing of my Bachelor's of IT
+        Hey there, I am Asadul Islam Symon. I am pursuing  my Bachelor's of IT
         majoring in software development and I have data science as my
         Sub-Major.
         <br />I used to write some basic HTML and CSS code back in my High
