@@ -11,7 +11,7 @@ const MainSection = () => {
       <section className={mainStyles.container}>
         <div className={mainStyles.textContainer}>
           <div className={mainStyles.background_img}>
-            <img src={image} alt='My portfolio' />
+            //<img src={image} alt='My portfolio' />
           </div>
           <div className={mainStyles.content}>
             <h5 className={mainStyles.intro}>Asadul Islam Symon</h5>
