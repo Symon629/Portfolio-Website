@@ -11,11 +11,7 @@ const AboutMe = () => {
         <br />I used to write some basic HTML and CSS code back in my High
         School and then moved towards Java JavaScript and C++ later. I also have
         Experience in developing Web Apps using React, Java, SQL, MongoDB and
-        NodeJs.For developing Mobile Applications I have Experience with React
-        Native and Java. Currently I am into Competitive Coding and Blockchain
-        technology
-        <br />
-        When I am not coding I like to travel and play games.
+        NodeJs.I also have experience developing mobile apps using React native and Java.
       </p>
     );
   };
