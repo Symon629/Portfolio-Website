@@ -8,40 +8,6 @@ import MainButton from './Shared/MainButton';
 *<img src={image} alt='My portfolio' />
 */
 const MainSection = () => {
-   let baseUrl = 'https://api.starshipit.com/api';
-  const requestBody = {
-    destination: {
-      street: '11-17 Davidson Street',
-      suburb: 'Greenacre',
-      state: 'NSW',
-      post_code: '2190',
-      country_code: 'AU',
-    },
-    packages: [
-      {
-        weight: 10,
-      },
-    ],
-  };
-  const credentials = {
-    headers: {
-      Host: 'api.starshipit.com',
-      'Content-Type': 'application/json',
-      'StarShipIT-Api-Key': '4e325c0dedec47b080320a80caf07584',
-      'Ocp-Apim-Subscription-Key': '57c7554c5ef145fbb2069d45b28fa77c',
-    },
-  };
-  const getQuote = () => {
-    axios
-      .post(`${baseUrl}/rates`, requestBody, credentials)
-      .then((res) => {
-        console.log(res.data.rates);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
-  getQuote();
   return (
     <div tabIndex='0'>
       <section className={mainStyles.container}>
