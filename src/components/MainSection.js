@@ -21,9 +21,7 @@ const MainSection = () => {
               A Full Stack Software developer and Data Analyst
             </h1>
             <p className={mainStyles.shortDescription}>
-              I am in my Last year, pursuing a Bachelor's degree at UTS. I like
-              developing mobile applications. Current Tech Stack that I am
-              working with is MERN Stack.
+            Recently graduated with a bachelor’s degree in information technology, I possess a solid foundation in software development principles and a keen interest in data analysis and visualization. Eager to apply skills and make positive real-world contributions to business success.
             </p>
             <div className={mainStyles.buttonContainer}>
               <MainButton
