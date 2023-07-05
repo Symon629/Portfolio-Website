@@ -5,13 +5,9 @@ const AboutMe = () => {
   const AboutData = () => {
     return (
       <p>
-        Hey there, I am Asadul Islam Symon. I am pursuing  my Bachelor's of IT
-        majoring in software development and I have data science as my
-        Sub-Major.
-        <br />I used to write some basic HTML and CSS code back in my High
-        School and then moved towards Java JavaScript and C++ later. I also have
-        Experience in developing Web Apps using React, Java, SQL, MongoDB and
-        NodeJs.I also have experience developing mobile apps using React native and Java.
+      Hello, I am Asadul Islam Symon, currently pursuing a Bachelor's degree in Information Technology with a focus on software development. My sub-major is in data science.
+      During my high school years, I gained experience in writing basic HTML and CSS code. As I progressed, I expanded my knowledge to include Java, JavaScript, and C++. Additionally, I have hands-on experience in developing web applications using technologies such as React, Java, Spring boot, C#,Asp.net, SQL, MongoDB, and Node.js.
+      Furthermore, I have also developed mobile applications using React Native and Java. My experience in both web and mobile app development has allowed me to gain a well-rounded skill set in various programming languages and frameworks.
       </p>
     );
   };
