@@ -17,7 +17,7 @@ const AboutMe = () => {
         <div className={`${AboutStyles.container} ${AboutStyles.left}`}>
           <div className={AboutStyles.content}>
             <h2 className={AboutStyles.timelineHeading}>
-            Full Stack Developer
+            Software Engineer/Full Stack Developer
             </h2>
             <p>Firebrand Pty Ltd</p>
           </div>
